@@ -1,7 +1,8 @@
 import express from "express"
 import cors from "cors"
 import morgan from "morgan";
-import connect from '../server/database/connection.js'
+import connect from '../server/database/connection.js';
+import router from "../server/router/route.js"
 
 
 const app = express()
@@ -20,6 +21,10 @@ const port = 8080;
 app.get('/',(req, res)=>{
 res.status(201).json("Home GET Request");
 });
+
+
+// Api Routes
+app.use('/api', router)
 
 
 // Start server  only when we have valid connection
