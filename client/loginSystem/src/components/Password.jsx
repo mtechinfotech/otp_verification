@@ -45,7 +45,7 @@ Explore More by Connecting with Us.
   </div>
 
 <div className="text-center py-4">
-<spam>Forgot Password ?<Link className='text-red-500' to='/recovery'>Recover Now</Link></spam>
+<span>Forgot Password ?<Link className='text-red-500' to='/recovery'>Recover Now</Link></span>
 </div>
 
 </form>
