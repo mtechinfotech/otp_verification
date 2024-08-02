@@ -22,7 +22,7 @@ function username() {
 
 
   return (
-    <div className="container mx-auto">
+    <div className="container m-20">
       <Toaster position='top-center' reverseOrder={false}></Toaster>
 <div className='flex justify-center item-center h-screen'>
 <div className={styles.glass}>
